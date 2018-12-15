@@ -274,7 +274,7 @@ div.about-title {
     background: #F36951;
     background-position: relative;
     background-size: auto 100%;
-    margin-right: -85rem;
+    margin-right: -92rem;
     padding-top: 3rem;
     padding-bottom: 3rem;
     overflow: hidden;
@@ -584,7 +584,12 @@ html.no-js-about {
   h1.font-weight {
     padding-top: 5rem;
     margin-left: 11rem;
-    padding-bottom: 1rem; } }
+    padding-bottom: 1rem;
+  }
+  div.about-paragraph.pt-5.text-left.col-sm-12.col-md-12 p.pt-1 {
+
+    padding-bottom: 2rem;}
+}
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   div.about-me-container {
@@ -599,7 +604,9 @@ html.no-js-about {
     margin-left: 12rem;
     padding-bottom: 1rem; }
   div.about-paragraph.pt-5.text-left.col-sm-12.col-md-12 p.pt-1 {
-    font-size: 2rem !important; }
+    font-size: 2rem !important;
+    padding-bottom: 2rem;}
+
   h4.text-dark {
     font-size: 3rem !important; } }
 
@@ -616,7 +623,8 @@ html.no-js-about {
     margin-left: 20rem;
     padding-bottom: 1rem; }
   div.about-paragraph.pt-5.text-left.col-sm-12.col-md-12 p.pt-1 {
-    font-size: 2rem !important; }
+    font-size: 2rem !important;
+    padding-bottom: 2rem !important;}
   h4.text-dark {
     font-size: 3rem !important; } }
 
@@ -637,7 +645,8 @@ html.no-js-about {
     font-size: 3.5rem;
     padding-bottom: 1rem; }
   div.about-paragraph.pt-5.text-left.col-sm-12.col-md-12 p.pt-1 {
-    font-size: 2.3rem !important; }
+    font-size: 2.3rem !important;
+    padding-bottom: 2rem !important;}
   h4.text-dark {
     font-size: 3rem !important; } }
 
